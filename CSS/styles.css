@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.slogan{
+    background-image: url('../IMAGES/Backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    height: 105vh;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+.container-fluid img{
+    padding: 9% 0 4% 0;
+    /* margin-left: -4%; */
+}
+.container-fluid h2{
+    font-weight: bold;
+
+}
+.container-fluid .motto{
+    font-size: 2vh;
+}
+.mouse img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 12%;
+
+}
