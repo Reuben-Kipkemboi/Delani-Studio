@@ -7,15 +7,15 @@
 .slogan{
     background-image: url('../IMAGES/Backgrounds/h_img.jpg');
     background-repeat: no-repeat;
-    height: 105vh;
+    height: 110vh;
     color: #fff;
     background-size: cover;
     background-position: center;
     text-transform: uppercase;
+    width: 100%;
 }
 .container-fluid img{
-    padding: 9% 0 4% 0;
-    /* margin-left: -4%; */
+    margin: 8% 0 5% 0;
 }
 .container-fluid h2{
     font-weight: bold;
@@ -27,11 +27,27 @@
 .mouse img{
     display: block;
     margin: 0 auto;
-    margin-top: 12%;
+    margin-top: 13%;
 
 }
 main .lead{
     color: black;
     font-size: 2.5vh;
     line-height: 1.6;
+}
+.container2{
+    background-image: url('../IMAGES/Backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    object-fit: cover;
+}
+.container2 .h2-services{
+    font-weight: bold;
+    margin-top: 3%;
+    padding-top: 7%;
+}
+.container2 .contract{
+    color: white;
+    text-align: center;
 }
