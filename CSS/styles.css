@@ -106,8 +106,6 @@ main .lead{
 .btn:hover{
     color: #fff;
     border: 1px solid #fff;
-
-
 }
 ::placeholder{
     color: #fff;
@@ -116,4 +114,5 @@ main .lead{
 #mail-form #user-query{
     background-color : rgba(0, 0, 0, 0);
     border: 1px solid #fff;
+    color: white;
 }
