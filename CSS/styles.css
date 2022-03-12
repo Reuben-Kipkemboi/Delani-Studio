@@ -104,7 +104,9 @@ main .lead{
     font-weight: bold;  
 }
 .btn:hover{
-    color: black;
+    color: #fff;
+    border: 1px solid #fff;
+
 
 }
 ::placeholder{
