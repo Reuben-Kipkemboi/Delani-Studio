@@ -58,3 +58,13 @@ main .lead{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#portfolio{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+#portfolio img{
+    /* height: 300px;
+    width: 300px; */
+}
