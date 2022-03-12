@@ -79,6 +79,7 @@ main .lead{
     display: block;
     margin: 0 auto;
     position: relative;
+    height: 70vh;
 
 }
 #mail-form{
@@ -91,6 +92,19 @@ main .lead{
     color: #fff;
     height: 5vh;
     margin-right: 4.5%;
+}
+.btn{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    color:#fff;
+    font-weight: bold;  
+}
+.btn:hover{
+    color: black;
 
 }
 ::placeholder{
