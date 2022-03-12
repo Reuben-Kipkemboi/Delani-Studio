@@ -51,3 +51,10 @@ main .lead{
     color: white;
     text-align: center;
 }
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
