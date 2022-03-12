@@ -60,15 +60,17 @@ main .lead {
     color: white;
     text-align: center;
 }
-
-.work #works {
+#display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+     /* flex-wrap: wrap;  */
+}
+#design-hide .design,
+ #development-hide .development,
+ #product-hide .product-management{
     font-size: 2vh;
 }
-
-.work #works .par1 {
-    display: none;
-}
-
 #portfolio img {
     height: 250px;
     width: 250px;
@@ -78,7 +80,6 @@ main .lead {
 .mail-box {
     background-image: url('../IMAGES/Backgrounds/c_image.jpg');
     background-position: center;
-    /* object-fit: cover; */
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
