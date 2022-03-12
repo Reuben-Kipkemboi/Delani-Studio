@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.slogan{
+
+.slogan {
     background-image: url('../IMAGES/Backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     height: 110vh;
@@ -14,59 +15,67 @@
     text-transform: uppercase;
     width: 100%;
 }
-.container-fluid img{
+
+.container-fluid img {
     margin: 8% 0 5% 0;
 }
-.container-fluid h2{
+
+.container-fluid h2 {
     font-weight: bold;
 
 }
-.container-fluid .motto{
+
+.container-fluid .motto {
     font-size: 2vh;
 }
-.mouse img{
+
+.mouse img {
     display: block;
     margin: 0 auto;
     margin-top: 13%;
 
 }
-main .lead{
+
+main .lead {
     color: black;
     font-size: 2.5vh;
     line-height: 1.6;
 }
-.container2{
+
+.container2 {
     background-image: url('../IMAGES/Backgrounds/s_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 55vh;
     object-fit: cover;
 }
-.container2 .h2-services{
+
+.container2 .h2-services {
     font-weight: bold;
     margin-top: 3%;
     padding-top: 7%;
 }
-.container2 .contract{
+
+.container2 .contract {
     color: white;
     text-align: center;
 }
 
-.work{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-}.work .works{
+.work #works {
     font-size: 2vh;
 }
-#portfolio img{
+
+.work #works .par1 {
+    display: none;
+}
+
+#portfolio img {
     height: 250px;
     width: 250px;
     margin: 1% 0.5%;
 }
-.mail-box{
+
+.mail-box {
     background-image: url('../IMAGES/Backgrounds/c_image.jpg');
     background-position: center;
     object-fit: cover;
@@ -75,44 +84,51 @@ main .lead{
     flex-direction: column;
     flex-wrap: wrap;
 }
-.mail-box #mail-form{
+
+.mail-box #mail-form {
     display: block;
     margin: 0 auto;
     position: relative;
     height: 70vh;
 
 }
-#mail-form{
+
+#mail-form {
     background-color: rgba(0, 0, 0, 0);
 }
-#mail-form input{
+
+#mail-form input {
     background-color: rgba(0, 0, 0, 0);
-    width: 45% ;
+    width: 45%;
     border: 1px solid #fff;
     color: #fff;
     height: 5vh;
     margin-right: 4.5%;
 }
-.btn{
+
+.btn {
     width: 50%;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    color:#fff;
-    font-weight: bold;  
-}
-.btn:hover{
-    color: #fff;
-    border: 1px solid #fff;
-}
-::placeholder{
     color: #fff;
     font-weight: bold;
 }
-#mail-form #user-query{
-    background-color : rgba(0, 0, 0, 0);
+
+.btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+#mail-form #user-query {
+    background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     color: white;
 }
