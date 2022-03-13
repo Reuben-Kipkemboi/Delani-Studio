@@ -66,9 +66,14 @@ main .lead {
     justify-content: space-around; 
      /* flex-wrap: wrap;  */
 }
-#design-hide .design,
- #development-hide .development,
- #product-hide .product-management{
+#design-par,
+#development-par,
+#product-par{
+    display: none;
+}
+#design-par p,
+ #development-par p,
+ #product-par p{
     font-size: 2vh;
 }
 #portfolio img {
@@ -118,7 +123,7 @@ main .lead {
     border: 1px solid #fff;
 }
 ::placeholder {
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
 }
 
