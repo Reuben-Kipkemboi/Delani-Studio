@@ -60,41 +60,87 @@ main .lead {
     color: white;
     text-align: center;
 }
-#display{
+
+#display {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
-     /* flex-wrap: wrap;  */
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
 }
+
 #design-par,
 #development-par,
-#product-par{
+#product-par {
     display: none;
 }
+
 #design-par p,
- #development-par p,
- #product-par p{
+#development-par p,
+#product-par p {
     font-size: 2vh;
 }
+
 #portfolio img {
     height: 250px;
     width: 270px;
 }
-#img-hover1, 
-#img-hover2, 
-#img-hover3, 
-#img-hover4, 
-#img-hover5, 
-#img-hover6, 
-#img-hover7, 
+@media screen and (min-width: 320px)and (max-width:480px) {
+    #portfolio img {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 480px)and (max-width:768px) {
+    #portfolio img {
+        width: 100%;
+    }
+
+}
+#img-hover1,
+#img-hover2,
+#img-hover3,
+#img-hover4,
+#img-hover5,
+#img-hover6,
+#img-hover7,
 #img-hover8 {
-    display:none;
+    display: none;
     border: 8px solid #fff;
     width: 80%;
     height: 70%;
     padding: 20px;
-    text-align: start; 
+    text-align: start;
 }
+
+@media screen and (min-width: 320px)and (max-width:480px) {
+
+    #img-hover1,
+    #img-hover2,
+    #img-hover3,
+    #img-hover4,
+    #img-hover5,
+    #img-hover6,
+    #img-hover7,
+    #img-hover8 {   
+        width: 80%;
+        
+    }
+}
+@media screen and (min-width: 480px)and (max-width:768px) {
+
+    #img-hover1,
+    #img-hover2,
+    #img-hover3,
+    #img-hover4,
+    #img-hover5,
+    #img-hover6,
+    #img-hover7,
+    #img-hover8 {   
+        width: 80%;
+        
+    }
+}
+
 .mail-box {
     background-image: url('../IMAGES/Backgrounds/c_image.jpg');
     background-position: center;
@@ -111,6 +157,7 @@ main .lead {
     height: 85vh;
     background-color: rgba(0, 0, 0, 0);
 }
+
 #mail-form input {
     background-color: rgba(0, 0, 0, 0);
     width: 45%;
@@ -137,6 +184,7 @@ main .lead {
     border: 1px solid #fff;
     background-color: rgb(81, 81, 81);
 }
+
 ::placeholder {
     color: #fff !important;
     font-weight: bold;
@@ -146,4 +194,25 @@ main .lead {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     color: white;
+}
+@media screen and (min-width: 320px)and (max-width:480px) {
+
+    .mail-box{
+        background-position: center center;
+    }
+    #mail-form input {
+        margin: 2%;
+    }
+
+    #mail-form #submit {
+        width: 25%;
+        display: block;
+        margin-left: 10%;
+    }
+    #mail-form textarea{
+        width: 90%;
+        height: 50vh;
+        margin-left: 3%;
+    }
+
 }
