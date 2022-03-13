@@ -112,11 +112,12 @@ $(document).ready(function () {
         let userEmail = document.getElementById('email');
         let query = document.getElementById('user-query');
         if (userName) {
-            alert("Hello" + " " + userName + " " + "we have received your message.Thankyou for reaching out to us");
+            alert("Hello" + " " + userName + " " + "we have received your message.Thank you for reaching out to us");
         } else {
             ('kindly check the format of email or your name');
         }
     }
+    
     // Event listener when the user clicks the submit button.
     let btn = document.getElementById('submit');
     btn.addEventListener('click', (event) => {
