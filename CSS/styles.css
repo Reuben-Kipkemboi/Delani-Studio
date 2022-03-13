@@ -107,20 +107,22 @@ main .lead {
     margin-right: 4.5%;
 }
 
-.btn {
+#mail-form #submit {
     width: 50%;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 2px;
     display: block;
     margin: 0 auto;
     color: #fff;
     font-weight: bold;
+    font-size: 3vh;
 }
 
-.btn:hover {
+#mail-form #submit:hover {
     color: #fff;
     border: 1px solid #fff;
+    background-color: rgb(81, 81, 81);
 }
 ::placeholder {
     color: #fff !important;
