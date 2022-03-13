@@ -78,10 +78,23 @@ main .lead {
 }
 #portfolio img {
     height: 250px;
-    width: 250px;
-    margin: 1% 0.5%;
+    width: 270px;
 }
-
+#img-hover1, 
+#img-hover2, 
+#img-hover3, 
+#img-hover4, 
+#img-hover5, 
+#img-hover6, 
+#img-hover7, 
+#img-hover8 {
+    display:none;
+    border: 8px solid #fff;
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    text-align: start;  
+}
 .mail-box {
     background-image: url('../IMAGES/Backgrounds/c_image.jpg');
     background-position: center;
