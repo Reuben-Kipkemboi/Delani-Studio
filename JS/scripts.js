@@ -51,13 +51,24 @@ $(document).ready(function () {
 
     }
 
-
+    function submitQuery(){
+        let userName = document.getElementById('name').value;
+        let userEmail = document.getElementById('email');
+        let query = document.getElementById('user-query');
+        if (userName){
+            alert("Hello" + " " + userName + " " + "we have received your message.Thankyou for reaching out to us");
+        }else{
+            ('kindly check the format of email or your name');
+        }
+    }
 
     let btn = document.getElementById('submit');
     btn.addEventListener('click', (event) => {
         event.preventDefault()
 
-        validate()
+        validate();
+
+        submitQuery();
 
 
 
